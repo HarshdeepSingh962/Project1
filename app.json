@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Project1",
+    "name": "PhoneDirect",
     "slug": "Project1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,13 +15,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.harshsandhu.Project1",
+    "buildNumber": "1.0.0",
+    "icon": "./assets/icon2.png"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.harshsandhu.Project1",
+    "versionCode": 12
+
     },
     "web": {
       "favicon": "./assets/favicon.png"
