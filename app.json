@@ -23,9 +23,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon2.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.harshsandhu.Project1",
-      "versionCode": 112
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -37,7 +35,8 @@
     }
   },
   "android": {
-    "package": "com.harshsandhu.Project"
+    "package": "com.harshsandhu.Project1",
+    "versionCode": 112
   }
   }
 
